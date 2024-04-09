@@ -1,14 +1,10 @@
 #include <stdio.h>
 
 int main() {
-    int notas[10];
+    char palavrasecreta[20];
 
-    notas[0] = 10;
-    notas[1] = 9;
-    notas[2] = 8;
-    notas[3] = 7;
+    sprintf(palavrasecreta, "MELANCIA");
+    printf("%s\n", palavrasecreta);
 
-    printf("notas %d %d %d\n", notas[0], notas[1], notas[2]);
-    
     return 0;
 }
